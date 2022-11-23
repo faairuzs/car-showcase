@@ -7,6 +7,20 @@ export default function Footer() {
         <p class="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
           © 2022 Car Showcase 
         </p>
+        <nav class="flex  flex-wrap items-center text-base md:ml-auto">
+          <Link href="/" class="mr-5 hover:text-gray-900">
+            Home
+          </Link>
+          <Link href="/tools" class="mr-5 hover:text-gray-900">
+            Tools
+          </Link>
+          <Link href="/review" class="mr-5 hover:text-gray-900">
+            Review
+          </Link>
+          <Link href="/aboutus" class="mr-5 hover:text-gray-900">
+            About Us
+          </Link>
+        </nav>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <Link
             href="https://www.instagram.com/faairuzs"
