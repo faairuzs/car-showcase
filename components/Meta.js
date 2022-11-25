@@ -75,15 +75,15 @@ export default function Meta(props) {
       />
       <link rel="manifest" href="/manifest.json" />
       <link rel="icon" href="/assets/icon.ico" />
-      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta name="msapplication-TileColor" content="#111827" />
       <meta
         name="msapplication-TileImage"
         content="/assets/ms-icon-144x144.png"
       />
-      <meta name="theme-color" content="#ffffff" />
+      <meta name="theme-color" content="#111827" />
       <meta
         name="description"
-        content="List of freshwater aquarium fish species"
+        content="List of various Cars"
       />
     </Head>
   );

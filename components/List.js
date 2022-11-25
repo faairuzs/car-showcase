@@ -23,7 +23,7 @@ export default function List() {
   });
 
   return (
-    <section class="text-gray-600 body-font">
+    <section class="text-gray-600 body-font bg-gray-900">
       <div class="container px-5 py-8 mx-auto">
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           {data === null ? (

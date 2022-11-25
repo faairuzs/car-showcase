@@ -1,46 +1,47 @@
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
+import { faCar } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faInfo } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
-    <footer class="sticky bottom-0 text-gray-600 body-font z-50 bg-white">
-      <div class="container px-5 py-2 mx-auto flex items-center sm:flex-row flex-col">
-        <p class="text-sm text-gray-500 sm:py-2 sm:mt-0 mt-4">
-          © 2022 Car Showcase 
-        </p>
-        <nav class="flex  flex-wrap items-center text-base md:ml-auto">
-          <Link href="/" class="mr-5 hover:text-gray-900">
-            Home
+    <footer class="sticky bottom-0 text-gray-600 font-medium bg-gray-900 py-6 ">
+        <nav class="md:ml-auto ml-4 flex flex-wrap items-center text-sm justify-center">
+          <Link href="/" class="mr-12 hover:text-orange-500">
+            <div className="ml-1">
+            <FontAwesomeIcon icon={faCar}
+              class="w-5 h-5 content-center">
+            </FontAwesomeIcon>
+            </div>
+            Cars
           </Link>
-          <Link href="/tools" class="mr-5 hover:text-gray-900">
-            Tools
+          <Link href="/tools" class="mr-12 hover:text-orange-500 ">
+            <div className="ml-3">
+            <FontAwesomeIcon icon={faScrewdriverWrench}
+              class="w-5 h-5 content-center">
+            </FontAwesomeIcon>
+            </div>
+            Brands
           </Link>
-          <Link href="/review" class="mr-5 hover:text-gray-900">
+          <Link href="/review" class="mr-12 hover:text-orange-500">
+           <div className="ml-3">
+            <FontAwesomeIcon icon={faStar}
+              class="w-5 h-5 content-center">
+            </FontAwesomeIcon>
+            </div>
             Review
           </Link>
-          <Link href="/aboutus" class="mr-5 hover:text-gray-900">
-            About Us
+          <Link href="/aboutus" class="hover:text-orange-500">
+            <div className="ml-3">
+            <FontAwesomeIcon icon={faInfo}
+              class="w-5 h-5 content-center">
+            </FontAwesomeIcon>
+            </div>
+            About
           </Link>
         </nav>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <Link
-            href="https://www.instagram.com/faairuzs"
-            class="ml-3 text-gray-500"
-          >
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              class="w-5 h-5"
-              viewBox="0 0 24 24"
-            >
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
-          </Link>
-        </span>
-      </div>
     </footer>
   );
 }
