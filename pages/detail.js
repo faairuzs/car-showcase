@@ -4,7 +4,7 @@ import Image from "next/image";
 import Meta from "../components/Meta";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Image from "next/image";
+
 
 export default function Home() {
   const router = useRouter();
