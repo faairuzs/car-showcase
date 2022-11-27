@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
             Cars
           </Link>
-          <Link href="/tools" class="mr-12 hover:text-orange-500 ">
+          <Link href="/brands" class="mr-12 hover:text-orange-500 ">
             <div className="ml-3">
             <FontAwesomeIcon icon={faScrewdriverWrench}
               class="w-5 h-5 content-center">

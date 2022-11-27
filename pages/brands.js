@@ -23,7 +23,7 @@ export default function tools() {
         <div class="container px-5 py-5 mx-auto">
           <div class="text-center mb-10">
           </div>
-          <div class="flex flex-wrap">
+          <div class="flex flex-wrap items-center justify-center">
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="w-20 h-20 inline-flex items-center justify-center text-indigo-500 mb-3 flex-shrink-0">
                 <Image alt="icon" src={pic1} className="" />
