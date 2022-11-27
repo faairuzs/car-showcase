@@ -2,10 +2,9 @@ import Header from "../components/Header";
 import Meta from "../components/Meta";
 import Footer from "../components/Footer";
 import Image from "next/image";
-import pic1 from "../public/assets/ferrari2.png";
 import pic2 from "../public/assets/mclaren.png";
 import pic3 from "../public/assets/merc.png";
-import pic4 from "../public/assets/honda2.png";
+
 import pic5 from "../public/assets/audi.png";
 import pic6 from "../public/assets/toyota.png";
 import pic7 from "../public/assets/bmw.png";
@@ -26,7 +25,7 @@ export default function tools() {
           <div class="flex flex-wrap items-center justify-center">
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="w-20 h-20 inline-flex items-center justify-center text-indigo-500 mb-3 flex-shrink-0">
-                <Image alt="icon" src={pic1} className="" />
+                <Image alt="icon" src={""} className="" />
               </div>
               <div class="flex-grow">
                 <h2 class="text-white text-xl text-center title-font font-bold mt-4 mb-4">
@@ -74,7 +73,7 @@ export default function tools() {
             </div>
             <div class="p-4 md:w-1/3 flex flex-col text-justify items-center">
               <div class="w-20 h-20 inline-flex items-center justify-center text-indigo-500 mb-3 flex-shrink-0">
-                <Image alt="icon" src={pic4} className="" />
+                <Image alt="icon" src={""} className="" />
               </div>
               <div class="flex-grow">
                 <h2 class="text-white text-xl text-center title-font font-bold mt-4 mb-4">
