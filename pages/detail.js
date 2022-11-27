@@ -4,6 +4,7 @@ import Image from "next/image";
 import Meta from "../components/Meta";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   const router = useRouter();
@@ -21,7 +22,7 @@ export default function Home() {
       <section class="text-gray-600 body-font bg-gray-900">
   <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">{data ? data.title : ''}</h1>
-    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={data ? data.img : ""}/>
+    <Image class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src={data ? data.img : ""}/>
     <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
       <p class="mb-8 leading-relaxed text-slate-400">Car Source : {data ? data.source : ""}</p>
       <div class="flex w-full justify-center items-end">
