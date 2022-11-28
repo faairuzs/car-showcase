@@ -7,9 +7,8 @@ export default function Home() {
   return (
     <div>
       <Meta title="Car Showcase:home" />
-
       <Header />
-
+      <List />
       <Footer />
     </div>
   );
